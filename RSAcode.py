@@ -37,7 +37,7 @@ def prepaCrypt(M):
 
     
     E = int(input("E = "))
-    while E>=φ or mathsTools.pgcd(φ, E)!=1:
+    while E>=φ or mathsTools.gcd(φ, E)!=1:
         print("E must be less than φ=" + str(φ) + " and gcd(φ, E) must be equal to 1.")
         E = int(input("E = "))
         
