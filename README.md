@@ -1,12 +1,21 @@
 # RSAcodePy
-This program allows the encoding and decoding of messages using RSA encryption.
+This program allows the encoding and decoding of messages using RSA encryption.  
+**Messages are limited to sequences of capital letters.**
+
+## RSA
+RSA is a public-key cryptosystem that is widely used for secure data transmission.  
+For more details, see: https://en.wikipedia.org/wiki/RSA_(cryptosystem)
 
 ## How to use
 Simply place the files "RSAcode.py" and "mathsTools.py" in the same directory and run "RSAcode.py".
 
 ## Examples
-Public key : E = 257, N = 1073  
-Private key : D = 353
+**Public key :**
+- E = 257
+- N = 1073  
+
+**Private key :**
+- D = 353
 
 ### Encoding
 <img width="565" alt="encoding" src="https://user-images.githubusercontent.com/46789972/231012114-2142206f-4917-4437-8e82-fd3dbdb84f08.png">
